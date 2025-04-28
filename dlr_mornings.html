@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 8th Edition
+      Tutorial 6
+      Review Assignment
+
+      DLR Morning Schedule
+      Author: Justin McClure
+      Date: March 30, 2025
+
+      Filename:   dlr_mornings.html
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>DLR Morning Schedule</title>
+   <link href="dlr_reset2.css" rel="stylesheet" />
+   <link href="dlr_styles2.css" rel="stylesheet" />
+   <link href="dlr_tables2.css" rel="stylesheet" />
+   <link href="dlr_columns2.css" rel="stylesheet" />         
+</head>
+
+<body>
+   <header>
+      <h1>Listener Supported <em>Since</em> 1975</h1>
+      <nav>
+         <a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Listen Live</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <div id="container">
+      <section id="main"> 
+         <img src="dlr_logo2.png" alt="DLR" />
+         <h2>DLR Morning Schedule</h2>
+         <p>
+            DLR airs listener-supported public radio in Bismarck, North Dakota from 
+            5:00 a.m. to 10:30 p.m. <br />You can <a href="#">Listen Live</a> to streaming audio 
+            of our broadcast or download programs from our <a href="#">Podcast</a>. 
+            <br />Please refer below for our current morning schedule.
+         </p>
+         
+         <!-- Web Table for Morning Programs -->
+         <table class="programs">
+            <caption>All Times Central</caption>
+            <colgroup>
+               <col class="timeColumn" />
+               <col class="wDayColumns" span="5" />
+               <col class="wEndColumns" span="2" />
+            </colgroup>
+            <thead>
+               <tr>
+                  <th>Time</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th>5:00 a.m.</th>
+                  <td>Dawn Air</td>
+                  <td>Dawn Air</td>
+                  <td>Dawn Air</td>
+                  <td>Dawn Air</td>
+                  <td>Dawn Air</td>
+                  <td>Dawn Air Weekends</td>
+                  <td>Sunday Magazine</td>
+               </tr>
+               <tr>
+                  <th>5:30 a.m.</th>
+                  <td>Book Ends</td>
+                  <td>Book Ends</td>
+                  <td>Book Ends</td>
+                  <td>Book Ends</td>
+                  <td>Book Ends</td>
+                  <td>On the Air</td>
+                  <td>Weekend Wing</td>
+               </tr>
+               <tr>
+                  <th>6:00 a.m.</th>
+                  <td>Local News</td>
+                  <td>Local News</td>
+                  <td>Local News</td>
+                  <td>Local News</td>
+                  <td>Local News</td>
+                  <td>Weekend Wing</td>
+                  <td>RaDU</td>
+               </tr>
+               <tr>
+                  <th>6:30 a.m.</th>
+                  <td>Next Show</td>
+                  <td>Next Show</td>
+                  <td>Next Show</td>
+                  <td>Next Show</td>
+                  <td>Next Show</td>
+                  <td>Wait Wait</td>
+                  <td>Up &amp; Away</td>
+               </tr>
+               <tr>
+                  <th>7:00 a.m.</th>
+                  <td>Symphony City</td>
+                  <td>Symphony City</td>
+                  <td>Symphony City</td>
+                  <td>Symphony City</td>
+                  <td>Symphony City</td>
+                  <td>What You Say?</td>
+                  <td>Animal Talk</td>
+               </tr>
+               <tr>
+                  <th>7:30 a.m.</th>
+                  <td>Coffee Break</td>
+                  <td>Coffee Break</td>
+                  <td>Coffee Break</td>
+                  <td>Coffee Break</td>
+                  <td>Coffee Break</td>
+                  <td>Word Play</td>
+                  <td>Weekend Prime</td>
+               </tr>
+               <tr>
+                  <th>8:00 a.m.</th>
+                  <td>Opera Live from the East Coast</td>
+                  <td>Opera Live from the East Coast</td>
+                  <td>Opera Live from the East Coast</td>
+                  <td>Opera Live from the East Coast</td>
+                  <td>Opera Live from the East Coast</td>
+                  <td>The Inner Mind</td>
+                  <td>Grammar Rules!</td>
+               </tr>
+               <tr>
+                  <th>8:30 a.m.</th>
+                  <td>Book Shelf</td>
+                  <td>Book Shelf</td>
+                  <td>Book Shelf</td>
+                  <td>Book Shelf</td>
+                  <td>Book Shelf</td>
+                  <td>Weekend Edition</td>
+                  <td>Weekend Edition</td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="8">Support your Public Radio Station</td>
+               </tr>
+            </tfoot>
+         </table>
+         
+      </section>
+   </div>
+   
+   <footer>
+      DLR &#183; 4300 Magnolia Lane &#183; Bismarck, ND 58504 &#183; (701) 555 - 5611
+   </footer>
+</body>
+</html>
